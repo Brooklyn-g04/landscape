@@ -36,3 +36,28 @@ Ross.forward(1800)
 Ross.left(90)
 Ross.forward(800)
 Ross.end_fill()
+
+Rachel.fillcolor("pink")
+Rachel.begin_fill()
+Rachel.color("pink")
+
+def square(turtle,side):
+    for i in range(4):
+        Rachel.right(90)
+        Rachel.forward(100)
+
+Rachel.right(180)
+
+
+square(turtle, 75)
+Rachel.right(90)
+Rachel.forward(100)
+Rachel.end_fill()
+
+Rachel.fillcolor("purple")
+Rachel.begin_fill()
+Rachel.right(35)
+Rachel.forward(100)
+Rachel.right(117)
+Rachel.forward(98)
+Rachel.end_fill()
